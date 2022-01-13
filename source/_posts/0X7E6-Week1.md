@@ -1,19 +1,17 @@
 ---
-title: 0X7E6.MD
+title: 0X7E6-Week1
 date: 2022-01-13 22:23:34
 tags: ACM
 
 ---
 
-## 0X7E6 Week1
-
 ### A-Divan and a Store
 
 **题意**:第一行输入n,l,r,k,代表你一共有n块巧克力,你要买价格在l和r之间的巧克力,一共有k元钱,询问你能买的最多巧克力的个数,
 
- <!-- more -->
-
 **题解**:找到第一个大于l的位置开始买巧克力即可
+
+ <!-- more -->
 
 ```c++
 #include<iostream>
